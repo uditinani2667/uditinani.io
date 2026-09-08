@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Udit — Digital Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- =========================================
+     UDIT — SYSTEM LOADER
+========================================= -->
+
+<div id="udLoader">
+
+    <div class="ud-loader-grid"></div>
+
+    <div class="ud-loader-scan"></div>
+
+    <div class="ud-loader-content">
+
+        <div class="ud-loader-logo">
+            <span class="ud-loader-symbol">◈</span>
+
+            <div>
+                <strong>UDIT</strong>
+                <small>DIGITAL</small>
+            </div>
+        </div>
+
+
+        <div class="ud-loader-status">
+            <span class="ud-loader-dot"></span>
+            SYSTEM INITIALIZING
+        </div>
+
+
+        <div class="ud-loader-title">
+            <span>DESIGN.</span>
+            <span>CODE.</span>
+            <span>INNOVATE.</span>
+        </div>
+
+
+        <div class="ud-loader-progress">
+
+            <div class="ud-loader-progress-top">
+                <span id="udLoaderText">LOADING EXPERIENCE</span>
+                <span id="udLoaderPercent">00%</span>
+            </div>
+
+            <div class="ud-loader-track">
+                <div id="udLoaderBar"></div>
+            </div>
+
+        </div>
+
+
+        <div class="ud-loader-info">
+
+            <span id="udLoaderFrame">
+                PREPARING DIGITAL ENVIRONMENT
+            </span>
+
+            <span>2026 / UDIT</span>
+
+        </div>
+
+    </div>
+
+    <div class="ud-loader-corner ud-loader-corner-tl"></div>
+    <div class="ud-loader-corner ud-loader-corner-tr"></div>
+    <div class="ud-loader-corner ud-loader-corner-bl"></div>
+    <div class="ud-loader-corner ud-loader-corner-br"></div>
+
+</div>
+
+    <!-- =========================
+         NAVBAR
+    ========================== -->
+
+    <header class="navbar">
+
+        <div class="nav-inner">
+
+            <!-- LOGO -->
+            <a href="#" class="logo">
+
+                <span class="logo-symbol">◈</span>
+
+                <span class="logo-text">
+                    UDIT
+                    <small>DIGITAL</small>
+                </span>
+
+            </a>
+
+
+            <!-- NAVIGATION -->
+
+         <nav class="nav-links">
+    <a href="#home" class="nav-link active"><span>01</span> HOME</a>
+    <a href="#about" class="nav-link"><span>02</span> ABOUT</a>
+    <a href="#projects" class="nav-link"><span>03</span> PROJECTS</a>
+    <a href="#skills" class="nav-link"><span>04</span> SKILLS</a>
+    <a href="#credentials" class="nav-link"><span>05</span> CREDENTIALS</a>
+    <a href="#contact" class="nav-link"><span>06</span> CONTACT</a>
+</nav>
+
+
+            <!-- RIGHT BUTTON -->
+
+            <a href="#contact" class="connect">
+
+                <span class="connect-dot"></span>
+
+                LET'S TALK
+
+                <span class="arrow">↗</span>
+
+            </a>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =========================
+         MAIN CONTENT
+    ========================== -->
+
+    <main>
+
+
+        <!-- =========================
+             HOME / HERO
+        ========================== -->
+
+        <section id="home" class="scroll-section">
+    <div class="canvas-container">
+
+        <canvas id="frameCanvas"></canvas>
+
+        <div class="vignette"></div>
+
+        <div class="hero-content">
+
+            <div class="hero-label">
+                BCA • WEB DEVELOPER • UI/UX DESIGNER
+            </div>
+
+            <h1>
+                UDIT
+                <br>
+                <span>INANI</span>
+            </h1>
+
+            <p>
+                DESIGN • CODE • INNOVATE
+            </p>
+
+        </div>
+
+        <div class="hero-scroll-indicator">
+            SCROLL TO EXPLORE
+            <div class="hero-scroll-line"></div>
+        </div>
+
+    </div>
+</section>
+
+
+
+        <!-- =========================
+             ABOUT
+        ========================== -->
+
+        <section id="about" class="normal-section">
+
+            <div class="section-number">
+                01 / ABOUT
+            </div>
+
+            <h2>
+                Building digital
+                <span>experiences.</span>
+            </h2>
+
+
+            <div class="about-content">
+
+                <p>
+                    I'm Udit, a BCA graduate and passionate web developer
+                    focused on building modern, interactive and meaningful
+                    digital experiences.
+                </p>
+
+                <p>
+                    I enjoy turning ideas into functional web applications
+                    by combining clean code, creative design and
+                    user-focused experiences.
+                </p>
+
+                <p>
+                    From responsive websites and management systems to
+                    AI-powered platforms and hardware-based projects,
+                    I love exploring technology beyond the ordinary.
+                </p>
+
+            </div>
+
+
+            <div class="about-highlight">
+
+                <span>MY APPROACH</span>
+
+                <strong>
+                    THINK • DESIGN • DEVELOP • INNOVATE
+                </strong>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             PROJECTS
+        ========================== -->
+
+       <section id="projects" class="projects-section">
+
+    <div class="projects-header">
+        <div class="section-number">02 / SELECTED WORKS</div>
+
+        <div class="projects-counter">
+            <span id="projectCurrent">01</span>
+            <span>/</span>
+            <span>05</span>
+        </div>
+    </div>
+
+
+    <div class="projects-stage">
+
+        <!-- PROJECT 01 -->
+        <article class="project-slide active">
+
+            <div class="project-meta">
+                <span>01</span>
+                <span>ROBOTICS / IoT</span>
+            </div>
+
+            <div class="project-title">
+                <h2>
+                    FIRE
+                    <br>
+                    <span>FIGHTING</span>
+                    <br>
+                    ROBOT
+                </h2>
+            </div>
+
+            <div class="project-description">
+                <p>
+                    An autonomous Arduino-powered robotic system
+                    designed to detect and respond to fire using
+                    flame sensors and automated movement.
+                </p>
+
+                <div class="project-tech">
+                    ARDUINO / C++ / SENSORS / ROBOTICS
+                </div>
+
+                <a href="https://github.com/uditinani2667/FireFito-A-robot-to-stop-fire-" class="project-link">
+                    VIEW PROJECT
+                    <span>↗</span>
+                </a>
+            </div>
+
+            <div class="project-visual">
+                <div class="visual-number">01</div>
+                <div class="visual-grid"></div>
+
+                <div class="visual-orb">
+                    <span></span>
+                </div>
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 02 -->
+        <article class="project-slide">
+
+            <div class="project-meta">
+                <span>02</span>
+                <span>WEB DEVELOPMENT / UI</span>
+            </div>
+
+            <div class="project-title">
+                <h2>
+                    SPOTIFY
+                    <br>
+                    <span>CLONE</span>
+                </h2>
+            </div>
+
+            <div class="project-description">
+                <p>
+                    A responsive music streaming interface built
+                    to explore modern UI systems, interaction
+                    design and responsive web development.
+                </p>
+
+                <div class="project-tech">
+                    HTML / CSS / JAVASCRIPT / UI/UX
+                </div>
+
+                <a href="https://github.com/uditinani2667/Spotify-Clone---By-Udit-Inani" class="project-link">
+                    VIEW PROJECT
+                    <span>↗</span>
+                </a>
+            </div>
+
+            <div class="project-visual">
+                <div class="visual-number">02</div>
+                <div class="visual-grid"></div>
+
+                <div class="visual-orb">
+                    <span></span>
+                </div>
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 03 -->
+        <article class="project-slide">
+
+            <div class="project-meta">
+                <span>03</span>
+                <span>WEB APPLICATION / DATABASE</span>
+            </div>
+
+            <div class="project-title">
+                <h2>
+                    SMART
+                    <br>
+                    <span>CAMPUS</span>
+                </h2>
+            </div>
+
+            <div class="project-description">
+                <p>
+                    A centralized campus management platform
+                    designed to connect information, activities
+                    and digital services into one system.
+                </p>
+
+                <div class="project-tech">
+                    WEB / DATABASE / API / UI/UX
+                </div>
+
+                <a href="#" class="project-link">
+                    VIEW PROJECT
+                    <span>↗</span>
+                </a>
+            </div>
+
+            <div class="project-visual">
+                <div class="visual-number">03</div>
+                <div class="visual-grid"></div>
+
+                <div class="visual-orb">
+                    <span></span>
+                </div>
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 04 -->
+        <article class="project-slide">
+
+            <div class="project-meta">
+                <span>04</span>
+                <span>IoT / AUTOMATION</span>
+            </div>
+
+            <div class="project-title">
+                <h2>
+                    RFID
+                    <br>
+                    <span>ATTENDANCE</span>
+                </h2>
+            </div>
+
+            <div class="project-description">
+                <p>
+                    An automated attendance system using RFID
+                    technology to identify users and maintain
+                    digital attendance records.
+                </p>
+
+                <div class="project-tech">
+                    RFID / ARDUINO / DATABASE / IoT
+                </div>
+
+                <a href="#" class="project-link">
+                    VIEW PROJECT
+                    <span>↗</span>
+                </a>
+            </div>
+
+            <div class="project-visual">
+                <div class="visual-number">04</div>
+                <div class="visual-grid"></div>
+
+                <div class="visual-orb">
+                    <span></span>
+                </div>
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 05 -->
+        <article class="project-slide">
+
+            <div class="project-meta">
+                <span>05</span>
+                <span>AI / NLP / WEB</span>
+            </div>
+
+            <div class="project-title">
+                <h2>
+                    AI
+                    <br>
+                    <span>RESUME</span>
+                    <br>
+                    ANALYZER
+                </h2>
+            </div>
+
+            <div class="project-description">
+                <p>
+                    An AI-powered resume analysis platform that
+                    extracts skills, evaluates candidate profiles
+                    and helps identify suitable opportunities.
+                </p>
+
+                <div class="project-tech">
+                    AI / NLP / PYTHON / DATABASE
+                </div>
+
+                <a href="#" class="project-link">
+                    VIEW PROJECT
+                    <span>↗</span>
+                </a>
+            </div>
+
+            <div class="project-visual">
+                <div class="visual-number">05</div>
+                <div class="visual-grid"></div>
+
+                <div class="visual-orb">
+                    <span></span>
+                </div>
+            </div>
+
+        </article>
+
+    </div>
+
+
+    <!-- PROJECT NAVIGATION -->
+
+    <div class="project-navigation">
+
+        <button class="project-nav active" data-project="0">
+            <span>01</span>
+            FIRE ROBOT
+        </button>
+
+        <button class="project-nav" data-project="1">
+            <span>02</span>
+            SPOTIFY
+        </button>
+
+        <button class="project-nav" data-project="2">
+            <span>03</span>
+            SMART CAMPUS
+        </button>
+
+        <button class="project-nav" data-project="3">
+            <span>04</span>
+            RFID
+        </button>
+
+        <button class="project-nav" data-project="4">
+            <span>05</span>
+            AI RESUME
+        </button>
+
+    </div>
+
+</section>
+
+
+
+        <!-- =========================
+             SKILLS
+        ========================== -->
+
+      <section id="skills" class="ud-skills">
+
+    <div class="ud-skills-bg">SKILLS</div>
+
+    <div class="ud-skills-header">
+        <div class="ud-skills-number">03 / EXPERTISE</div>
+
+        <div class="ud-skills-status">
+            <span></span>
+            CONSTANTLY LEARNING
+        </div>
+    </div>
+
+    <div class="ud-skills-main">
+
+        <div class="ud-skills-intro">
+
+            <div class="ud-skills-eyebrow">
+                MY DIGITAL TOOLKIT
+            </div>
+
+            <h2>
+                CODE.<br>
+                <span>CREATE.</span><br>
+                EVOLVE.
+            </h2>
+
+            <p>
+                A growing collection of technologies, programming
+                languages and creative tools I use to build digital
+                experiences.
+            </p>
+
+        </div>
+
+
+        <div class="ud-skills-core">
+
+            <div class="ud-core-ring ud-ring-1"></div>
+            <div class="ud-core-ring ud-ring-2"></div>
+            <div class="ud-core-ring ud-ring-3"></div>
+
+            <div class="ud-core-center">
+                <span>TECHNOLOGY</span>
+                <strong>UDIT</strong>
+                <i></i>
+                <span>DEVELOPER</span>
+            </div>
+
+        </div>
+
+
+        <div class="ud-skills-list">
+
+            <button class="ud-skill-card active" data-skill="web">
+                <span class="ud-skill-number">01</span>
+                <span class="ud-skill-name">WEB DEVELOPMENT</span>
+                <span class="ud-skill-arrow">↗</span>
+            </button>
+
+            <button class="ud-skill-card" data-skill="programming">
+                <span class="ud-skill-number">02</span>
+                <span class="ud-skill-name">PROGRAMMING</span>
+                <span class="ud-skill-arrow">↗</span>
+            </button>
+
+            <button class="ud-skill-card" data-skill="backend">
+                <span class="ud-skill-number">03</span>
+                <span class="ud-skill-name">BACKEND & DATABASE</span>
+                <span class="ud-skill-arrow">↗</span>
+            </button>
+
+            <button class="ud-skill-card" data-skill="ai">
+                <span class="ud-skill-number">04</span>
+                <span class="ud-skill-name">AI & MACHINE LEARNING</span>
+                <span class="ud-skill-arrow">↗</span>
+            </button>
+
+            <button class="ud-skill-card" data-skill="iot">
+                <span class="ud-skill-number">05</span>
+                <span class="ud-skill-name">IoT & ROBOTICS</span>
+                <span class="ud-skill-arrow">↗</span>
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <div class="ud-skill-detail">
+
+        <div class="ud-detail-header">
+            <span id="udDetailNumber">01</span>
+            <span id="udDetailCategory">WEB DEVELOPMENT</span>
+        </div>
+
+        <div class="ud-skill-tags" id="udSkillTags"></div>
+
+        <p id="udDetailDescription">
+            Building responsive and interactive websites.
+        </p>
+
+    </div>
+
+
+    <div class="ud-skills-marquee">
+        <div>
+            HTML5 • CSS3 • JAVASCRIPT • PYTHON • JAVA • C++ • AI • IoT • DATABASE • UI/UX •
+        </div>
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CREDENTIALS / EDUCATION
+===================================================== -->
+
+<section id="credentials" class="ud-credentials">
+
+    <div class="ud-credentials-bg">EDUCATION</div>
+
+    <div class="ud-credentials-header">
+        <span>05 / CREDENTIALS</span>
+
+        <div class="ud-credentials-status">
+            <i></i>
+            ACADEMIC PROFILE
+        </div>
+    </div>
+
+
+    <div class="ud-credentials-stage">
+
+        <!-- ROTATING WHEEL -->
+
+        <div class="ud-degree-wheel" id="udDegreeWheel">
+
+            <div class="ud-degree-card">
+                <span class="degree-number">01</span>
+                <span class="degree-type">DEGREE</span>
+
+                <h3>BCA</h3>
+
+                <p>
+                    Bachelor of Computer Applications
+                </p>
+
+                <small>
+                    COMPUTER APPLICATIONS
+                </small>
+            </div>
+
+
+            <div class="ud-degree-card">
+                <span class="degree-number">02</span>
+                <span class="degree-type">SCHOOL</span>
+
+                <h3>CLASS XII</h3>
+
+                <p>
+                    Senior Secondary Education
+                </p>
+
+                <small>
+                    HIGHER SECONDARY
+                </small>
+            </div>
+
+
+            <div class="ud-degree-card">
+                <span class="degree-number">03</span>
+                <span class="degree-type">SCHOOL</span>
+
+                <h3>CLASS X</h3>
+
+                <p>
+                    Secondary Education
+                </p>
+
+                <small>
+                    SECONDARY
+                </small>
+            </div>
+
+
+            <div class="ud-degree-card">
+                <span class="degree-number">04</span>
+                <span class="degree-type">SPECIALIZATION</span>
+
+                <h3>WEB DEV</h3>
+
+                <p>
+                    Frontend & UI/UX Development
+                </p>
+
+                <small>
+                    DIGITAL TECHNOLOGY
+                </small>
+            </div>
+
+
+            <div class="ud-degree-card">
+                <span class="degree-number">05</span>
+                <span class="degree-type">TECHNOLOGY</span>
+
+                <h3>AI + IoT</h3>
+
+                <p>
+                    Artificial Intelligence & Connected Systems
+                </p>
+
+                <small>
+                    TECHNOLOGY
+                </small>
+            </div>
+
+        </div>
+
+
+        <!-- CENTER -->
+
+       
+
+        <!-- ROTATION CONTROLS -->
+
+        <div class="ud-wheel-controls">
+
+            <button id="udWheelPrev">←</button>
+
+            <span>
+                ROTATE
+            </span>
+
+            <button id="udWheelNext">→</button>
+
+        </div>
+
+    </div>
+
+
+    <!-- RESUME -->
+
+    <div class="ud-resume-panel">
+
+        <div class="ud-resume-info">
+
+            <span>DOCUMENT / 01</span>
+
+            <h2>
+                MY <span>RESUME.</span>
+            </h2>
+
+            <p>
+                Explore my education, technical skills,
+                projects and professional journey.
+            </p>
+
+        </div>
+
+
+        <a
+            href="resume.pdf"
+            download="Udit-Inani-Resume.pdf"
+            class="ud-resume-button"
+        >
+
+            <span>
+                DOWNLOAD RESUME
+            </span>
+
+            <strong>↓</strong>
+
+        </a>
+
+    </div>
+
+
+    <div class="ud-credentials-footer">
+
+        <span>EDUCATION • TECHNOLOGY • EXPERIENCE</span>
+
+        <span>05 / UDIT DIGITAL</span>
+
+    </div>
+
+</section>
+        <!-- =========================
+             CONTACT
+        ========================== -->
+
+        <section id="contact" class="normal-section">
+
+            <div class="section-number">
+                04 / CONTACT
+            </div>
+
+
+            <h2>
+                Let's create
+                <span>something.</span>
+            </h2>
+
+
+            <div class="contact-content">
+
+                <p>
+                    Have an idea, a project or an opportunity?
+                </p>
+
+                <p>
+                    Let's turn it into something real.
+                </p>
+
+            </div>
+
+<div class="contact-cta">
+    <a
+        href="https://mail.google.com/mail/?view=cm&fs=1&to=uditinani5@gmail.com&su=Portfolio%20Inquiry"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        GET IN TOUCH <span>↗</span>
+    </a>
+</div>
+
+
+            <div class="social-links">
+
+                <a href="#" target="_blank">
+                    LINKEDIN ↗
+                </a>
+
+                <a href="#" target="_blank">
+                    GITHUB ↗
+                </a>
+<a
+    href="https://mail.google.com/mail/?view=cm&fs=1&to=uditinani5@gmail.com"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+    EMAIL ↗
+</a>
+
+            </div>
+
+
+            <footer>
+
+                <span>
+                    UDIT — DIGITAL
+                </span>
+
+                <span>
+                    DESIGN • CODE • EXPERIENCE
+                </span>
+
+                <span>
+                    © 2026
+                </span>
+
+            </footer>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
